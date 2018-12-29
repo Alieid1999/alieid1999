@@ -1,0 +1,16 @@
+#header {
+	background: gray;
+	padding-top: 100px;
+	padding-left: 250px;
+	padding-bottom: 100px;
+	font-size: 40px;
+}
+#button {
+	padding-left: 750px;
+}
+#footer {
+	background: black;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 250px;
+}
