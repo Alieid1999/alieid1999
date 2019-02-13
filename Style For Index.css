@@ -1,0 +1,165 @@
+#a
+{
+  background: transparent;
+}
+#b
+{
+	background-image: url('index.png');
+	display: block;
+	width: 1300px;
+	height: 400px;
+	background-repeat: no-repeat;
+
+}
+#c
+{
+	background-color: lightblue;
+}
+#d
+{
+	padding-left: 30px;
+	border: solid 3px;
+	font-weight: bold;
+}
+#e
+{
+	border: solid 3px;
+    text-align: justify;
+    margin: 50px;
+}
+#f 
+{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+  margin-right: 100px;
+}
+#g
+{
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+/* Month header */
+
+
+/* Highlight the "current" day */
+
+a:hover 
+ {
+	text-decoration: none;
+
+}
+
+table,th,td
+{
+  text-align: center;
+  border-collapse: collapse;
+}
+
+input[type=text],input[type=telephone], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+body
+{
+    margin: 0;
+}
+ ul {
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#img-circle
+{
+  border-radius: 50%;
+  width: 190px;
+}
+#Font-Bigger
+{
+  font-size: 40px;
+  font-family: bold;
+  color: black;
+  font-size: 50px;
+  padding-left: 300px;
+  padding-bottom: 20px;
+}
+#transparent-Background
+{
+  background: transparent;
+}
+body
+{
+  background: linear-gradient(132deg, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 30s ease infinite;
+}
+@keyframes BackgroundGradient 
+{
+
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+#img1
+{
+width: 1400px;
+height: 450px;
+}
+#img2
+{
+width: 600px;
+height: 450px;
+}
+#about
+{
+  padding-top: 40px;
+  padding-left: 300px;
+  padding-right: 400px;
+}
