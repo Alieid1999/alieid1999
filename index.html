@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome To ADI</title>
-	<link rel="shortcut icon" type="image/x-icon" href="University ADI.png" />
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="style.js"></script>
+ <title>Welcome To ADI</title>
+ <link rel="shortcut icon" href="ADI.png" href="ADI.png" />
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+ <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script type="text/javascript" src="style.js"></script>
+ <link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
 <body>
-	<div id="transparent-Background">
-		<img id="img-circle" src="University ADI.png" style="max-height: 100px;max-width: 90px; margin-top: 20px;margin-bottom: 20px;margin-left: 20px;margin-right: 20px;">
-		<font><i><b>Welcome To University ADI</b></i></font>
-		<ul>
-		  <li><a href="newapplication.html" target="_blank"><b><i>New Application</i></b></a></li>
-		  <li><a href="loginforstudent.html" target="_blank"><b><i>Log In For Student</i></b></a></li>
-		  <li><a href="#About" target="_blank" style="margin-left: 250px;"><b><i>My Class Room</i></b></a></li>
-		  <li><a href="#About" target="_blank" style="margin-left: 400px;"><b><i>Home</i></b></a></li>
-		  <li><a href="contactus.html" target="_blank"><b><i>Contact Us</i></b></a></li>
-		  <li><a href="about.html" target="_blank"><b><i>About</i></b></a></li>
-		</ul>
-	</div>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div class="navbar-brand" style="padding-bottom: 45px;"><img src="ADI.png" style="width: 40px;"></div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="newapplication.html">New Application</a></li>
+        <li><a href="#band">Log In For Facebook</a></li>
+        <li><a href="#tour">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+</nav>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-	    <ol class="carousel-indicators">
-	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	      <li data-target="#myCarousel" data-slide-to="1"></li>
-	      <li data-target="#myCarousel" data-slide-to="2"></li>
-	    </ol>
+     <ol class="carousel-indicators">
+       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#myCarousel" data-slide-to="1"></li>
+       <li data-target="#myCarousel" data-slide-to="2"></li>
+       <li data-target="#myCarousel" data-slide-to="3"></li>
+     </ol>
 
     <!-- Wrapper for slides -->
-	    <div class="carousel-inner" role="listbox">
-	      <div class="item active">
-	        <img id="img1" src="Uni1.png" alt="Chicago" >     
-	      </div>
+     <div class="carousel-inner" role="listbox">
+       <div class="item active">
+         <img id="img1" src="Uni1.png">     
+       </div>
 
-	      <div class="item" >
-	        <img id="img1" src="Uni2.png" alt="Chicago">          
-	      </div>
-	    
-	      <div class="item">
-	        <img id="img1" src="Uni3.png" alt="Los Angeles" >      
-	      </div>
-	    </div>
+       <div class="item" >
+         <img id="img1" src="Uni2.png">          
+       </div>
+     
+       <div class="item">
+         <img id="img1" src="Uni3.png">      
+       </div>
+
+       <div class="item">
+        <img src="Uni4.png" id="img1">
+       </div>
+     </div>
 
     <!-- Left and right controls -->
-	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	      <span class="sr-only">Previous</span>
-	    </a>
-	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	      <span class="sr-only">Next</span>
-	    </a>
-	</div>
+     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+     </a>
+ </div>
 </body>
 </html>
