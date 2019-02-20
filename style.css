@@ -138,7 +138,7 @@ body
 {
   background: linear-gradient(132deg, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800);
   background-size: 400% 400%;
-  animation: BackgroundGradient 30s ease infinite;
+  animation: BackgroundGradient 90s ease infinite;
 }
 @keyframes BackgroundGradient 
 {
@@ -149,12 +149,7 @@ body
 }
 #img1
 {
-width: 1400px;
-height: 450px;
-}
-#img2
-{
-width: 600px;
+width: 100%;
 height: 450px;
 }
 #about
@@ -163,3 +158,177 @@ height: 450px;
   padding-left: 300px;
   padding-right: 400px;
 }
+.create
+{
+  padding: 30px;
+  border: solid 3px;
+  box-shadow: 10px;
+  margin: 40px;  
+}
+.select-combus
+{
+  border: solid 3px;
+  box-shadow: 10px;
+}
+.combus
+{
+  padding: 30px;"
+}
+.Mailing-Address
+{
+  padding : 40px;
+  border: solid 3px;
+}
+.design-for-Mailing-Address
+{
+  padding-top: 20px;
+}
+.design-for-Emergency-Contact
+{
+  padding-top: 20px;
+}
+.Emergency-Contact
+{
+  padding : 40px;
+  border: solid 3px;
+}
+.title
+{
+  padding-left: 400px;
+  font-size: 40px;
+}
+.logo
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.my-class-room
+{
+  margin-left: 250px;
+}
+.combus-font
+{
+  color: blue;
+  size: 40px;
+}
+.semester-font
+{
+  color: blue;
+  size: 30px;
+}
+.country-select
+{
+  border: solid 3px;
+  padding-left: 30px;
+}
+.gender
+{
+  padding-top: 20px;
+}
+.gender-type
+{
+  margin-left: 40px;
+}
+.birthday-select
+{
+  padding-left: 15px;
+}
+.place-of-birth
+{
+  padding-top: 20px;
+}
+.country-of-birthday
+{
+  padding-top: 20px;
+}
+.country-of-birthday-select
+{
+  padding-top: 20px;
+}
+.major
+{
+  color: blue;
+  size: 30px;
+}
+.personal-info
+{
+  border: solid 3px;
+  padding: 40px;
+}
+.personal-info-name
+{
+  padding-left: 40px;
+}
+.nationality
+{
+  padding-top: 20px;
+}
+.home
+{
+  margin-left: 400px;
+}
+.message-for-president
+{
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  #red {
+    color: red;
+  }
+}
+
+
+
+
+ul.sf-menu
+{
+  font-family: 'Lato', Arial, serif !important;}
+
+ul.sf-menu > li > a, 
+ul.sf-menu > li > span 
+{
+      font-size:18px;}
+
+ul.sf-menu > li.active > a, 
+ul.sf-menu > li.current > a, 
+ul.sf-menu > li.active > span, 
+ul.sf-menu > li.current > span 
+{
+    }
+
+ul.sf-menu > li > a:hover, 
+ul.sf-menu > li > span:hover
+{
+  }
+
+ul.sf-menu ul 
+{
+    width: 220px;}
+
+ul.sf-menu .divided ul.first-level
+{
+  width: 440px;}
+
+ul.sf-menu ul li a, 
+ul.sf-menu ul li span
+{
+      font-size:14px; width: 160px;}
+
+ul.sf-menu ul li.active > a, 
+ul.sf-menu ul li.active > span
+{
+    }
+
+ul.sf-menu ul li a:hover, 
+ul.sf-menu ul li span:hover
+{
+    }
+
+
+
+
+
+
+
