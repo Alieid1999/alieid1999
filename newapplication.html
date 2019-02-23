@@ -6,15 +6,15 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 <body class="table">
-	<p>Create New File For Student</p>
-	<div style="padding: 30px;border: solid 3px;box-shadow: 10px;margin: 40px;">
+	<p class="title">Create New File For Student</p>
+	<div class="create">
 		<p>Select Combus & Semester</p>
-		<div style="border: solid 4px;box-shadow: 10px;">
-			<div style="padding: 30px;">
-				<font style="color: blue;size: 40px;">
+		<div class="select-combus">
+			<div class="combus">
+				<font class="combus-font">
 					Compus
 				</font>
-				<select style="box-shadow: 30px; margin-left: 30px;" name="select Compus" required>
+				<select name="select Compus" required>
 					<option>Saida</option>
 					<option>Beirut</option>
 					<option>Akkar</option>
@@ -24,13 +24,13 @@
 					<option>Baalback</option>
 					<option>Tripoli</option>
 				</select>
-				<font style="color: blue; size: 30px;">Semester</font>
-				<select style="margin-left: 30px;" required>
+				<font class="semester-font">Semester</font>
+				<select name="select semester" required>
 					<option>Fall (2018-2019)</option>
 					<option>Spring (2018-2019)</option>
 				</select>
-				<font style="color: blue; size: 30px;" required>Major </font>
-				<select style="margin-left: 30px;">
+				<font class="major" required >Major </font>
+				<select name="select major">
 					<option>IT</option>
 					<option>Science</option>
 					<option>Graphic</option>
@@ -39,20 +39,18 @@
 			</div>
 		</div>
 		<p>Personal Info</p>
-		<div style="border: solid 3px; padding: 40px;">
+		<div class="personal-info">
 			<div>
-				First Name : <input type="text" name="First Name" style="padding-left: 40px;" required>
+				First Name : <input type="text" name="First Name" class="personal-info-name" required>
 				<font>
-				Middle Name : </font> <input type="text" name="Midle Name" style="padding-left: 40px;" required>
+				Middle Name : </font> <input type="text" name="Midle Name" class="personal-info-name" required>
 			    <font>
-			    Last Name : </font> <input type="text" name="Last Name" style="padding-left: 40px;" required>
+			    Last Name : </font> <input type="text" name="Last Name" class="personal-info-name" required>
+				Mother Name : <input type="text" name="Mother Name" class="personal-info-name" required>
 			</div>
-			<div style="padding-top: 20px;">
-				Mother Name : <input type="text" name="Mother Name" style="padding-left: 40px;" required>
-			</div>
-			<div style="padding-top: 20px;">
+			<div class="nationality">
 				Nationality 1: 
-				<select style="border: solid 3px;padding-left: 30px;" required> 
+				<select class="country-select" required> 
 					<option value="" selected="selected">Select Country</option> 
 					<option value="United States">United States</option> 
 					<option value="United Kingdom">United Kingdom</option> 
@@ -296,10 +294,10 @@
 					<option value="Zambia">Zambia</option> 
 					<option value="Zimbabwe">Zimbabwe</option>
 		   		</select>
-		   		<font style="padding-left: 30px;">
-		   			Nationality 2 :
+		   		<font>
+		   		Nationality 2 :
 		   		</font>
-		   		<select style="border: solid 3px; padding-left: 30px;" name="Country" required>
+		   		<select class="country-select" name="Country" required>
 						<option value="" selected="selected">Select Country</option> 
 						<option value="United States">United States</option> 
 						<option value="United Kingdom">United Kingdom</option> 
@@ -544,11 +542,11 @@
 						<option value="Zimbabwe">Zimbabwe</option>
 		   		</select>
 		   	</div>
-		   	<div style="padding-top: 20px;">
+		   	<div class="gender">
 		   		<form>
 		    		Gender : 
-		    		<input type="radio" name="Gender" value="Male" style="margin-left: 40px;" required>Male
-		    		<input type="radio" name="Gender" value="Female" style="margin-left: 40px;" required>Female
+		    		<input type="radio" class="gender-type" name="Gender" value="Male" required>Male
+		    		<input type="radio" class="gender-type" name="Gender" value="Female" required>Female
 		    	</form>
 		   	</div>
 		   	<div>
@@ -556,7 +554,7 @@
 		   		<br>
 		   		<br>
 		   		 Day : 
-		   		<select style="padding-left: 15px;" required>
+		   		<select class="birthday-select" required>
 		   			<option>1</option>
 		   			<option>2</option>
 		   			<option>3</option>
@@ -590,7 +588,7 @@
 		   			<option>31</option>
 		   		</select>
 		   		Month : 
-		   		<select style="padding-left: 15px;" required>
+		   		<select class="birthday-select" required>
 		   			<option>January</option>
 		   			<option>February</option>
 		   			<option>March</option>
@@ -605,7 +603,7 @@
 		   			<option>Decembre</option>
 		   		</select>
 		   		Year : 
-		   		<select style="padding-left: 15px;" required>
+		   		<select class="birthday-select" required>
 		   			<option>1990</option>
 		   			<option>1991</option>
 		   			<option>1992</option>
@@ -619,13 +617,13 @@
 		   			<option>2000</option>
 		   		</select>
 			</div>
-			<div style="padding-top: 20px;">
+			<div class="place-of-birth">
 				Place Of birth : 
 				<input type="text" name="Place Of birth" required>
 			</div>
-			<div style="padding-top: 20px;">
+			<div class="country-of-birthday">
 				Country Of Birthday : 
-				<select style="padding-left: 20px;" name="Country" required>
+				<select class="country-of-birthday-select" name="Country" required>
 					<option value="" selected="selected">Select Country</option> 
 					<option value="United States">United States</option> 
 					<option value="United Kingdom">United Kingdom</option> 
@@ -872,30 +870,30 @@
 			</div>
 		</div>
 		<p>Emergency Contact</p>
-		<div style="padding : 40px; border: solid 3px;">
-			<div style="padding-top: 20px;">
+		<div class="Emergency-Contact">
+			<div class="design-for-Emergency-Contact">
 				Contact Person : <input type="text" name="Contact Person" required>
 			</div>
-			<div style="padding-top: 20px;">
+			<div class="design-for-Emergency-Contact">
 				Telephone : <input type="text" name="Telephone" required>
 			</div>
 		</div>
 		<p>Mailing Address</p>
-		<div style="padding : 40px; border: solid 3px;">
-			<div style="padding-top: 10px;">
+		<div class="Mailing-Address">
+			<div class="design-for-Mailing-Address">
 				Area : <input type="text" name="Area" required>
 			    Street <input type="text" name="Street" required>
 			</div>
-			<div style="padding-top: 20px;">
+			<div class="design-for-Mailing-Address">
 				Building : <input type="text" name="building" required>
 			    Telephone : <input type="Telephone" name="Telephone" required>
 			</div>
-			<div style="padding-top: 20px;">
-				Mobile : <input type="Telephone" name="Mobile" style="padding-left: 10px;" required>
+			<div class="design-for-Mailing-Address">
+				Mobile : <input type="Telephone" name="Mobile" required>
 			</div>
 		</div>
 		<div style="padding-left: 500px;padding-top: 50px;">
-			<button style="color: red;">Submit</button>
+			<button style="color: red;border: 4px;">Submit</button>
 		</div>
 	</div>
 </body>
